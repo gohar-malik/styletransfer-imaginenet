@@ -47,7 +47,7 @@ Take a look at a comparison of results (left: Style Image, Middle: NST+ImagineNe
 </p>
 
 ## Usage
-Just open the notebook `[imagine-style-transfer.ipynb](imagine-style-transfer.ipynb)` in Google Colab and follow the instructions given in it.
+Just open the `imagine-style-transfer.ipynb` [notebook](imagine-style-transfer.ipynb) in Google Colab and follow the instructions given in it.
 
 ## Citation
 
