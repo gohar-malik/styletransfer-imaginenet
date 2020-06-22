@@ -35,8 +35,8 @@ Take a look at some of the results:
 <img src="results/polarbear_lesregates.jpg" width="512"/>
 </p>
 
-### Difference between results of the original NST and this implementaion
-The difference between the results of the original NST and this implementation (NST+ImagineNet) is that:
+### Difference between results of the original NST and NST+ImagineNet
+The difference between the results of the original NST and this implementation is that:
 * The Structure loss pushes the output to have a more homogenoues style representation throughout the image.
 * It also better conserves the semantics of the content from the content image.   
 Take a look at a comparison of results (left: Style Image, Middle: NST+ImagineNet, Right: Original NST):
@@ -44,6 +44,7 @@ Take a look at a comparison of results (left: Style Image, Middle: NST+ImagineNe
 <img src="style/bluecircuit.jpeg" width="256"/> <img src="results/sailboat_bluecircuit.jpg" width="256"/> <img src="results/sailboat_bluecircuit_gatys.jpg" width="256"/>
 <img src="style/mosaic.jpg" width="256"/> <img src="results/polarbear_mosaic.jpg" width="256"/> <img src="results/polarbear_mosaic_gatys.jpg" width="256"/>
 </p>
+
 ## Usage
 Just open the notebook `imagine-style-transfer.ipynb` in Google Colab and follow the instructions given in it.
 
