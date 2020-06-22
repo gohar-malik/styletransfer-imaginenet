@@ -1,5 +1,5 @@
 # Neural Style Transfer with Structure Loss (NST+ImagineNet)
-This is a Pytorch implementation of the "Structure Loss" from the paper [ImagineNet: Restyling Apps Using Neural Style Transfer](https://arxiv.org/abs/2001.04932) integrated into the Neural Style Transfer" method of Gatys et al. from the paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576).
+This is a Pytorch implementation of the "Structure Loss" from the paper [ImagineNet: Restyling Apps Using Neural Style Transfer](https://arxiv.org/abs/2001.04932) integrated into the Neural Style Transfer method of Gatys et al. from the paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576).
 
 Big thanks to Pytorch's official tutorial of [Neural Style Transfer](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html).
 
@@ -39,6 +39,7 @@ Take a look at some of the results:
 The difference between the results of the original NST and this implementation is that:
 * The Structure loss pushes the output to have a more homogenoues style representation throughout the image.
 * It also better conserves the semantics of the content from the content image.   
+
 Take a look at a comparison of results (left: Style Image, Middle: NST+ImagineNet, Right: Original NST):
 <p align="center">
 <img src="style/bluecircuit.jpeg" width="256"/> <img src="results/sailboat_bluecircuit.jpg" width="256"/> <img src="results/sailboat_bluecircuit_gatys.jpg" width="256"/>
