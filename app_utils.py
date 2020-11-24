@@ -71,7 +71,7 @@ def load_image(path, size=None, cap=None, remove_alpha_channel=True):
   return image
   
 
-def save_image(tensor, path):
+def save_image(tensor, pth):
   """Saves an image to the given path.
 
   Args:
@@ -85,7 +85,7 @@ def save_image(tensor, path):
   image_saver = transforms.Compose(transform)
 
   image = image_saver(tensor)
-  image.save(path)
+  image.save(pth)
 
 def imshow(tensor, title=None, figsize=None):
   """Renders the given tensor as an image using Matplotlib.
